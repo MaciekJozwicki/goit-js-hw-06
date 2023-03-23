@@ -1,6 +1,5 @@
 const listEl = document.getElementById("categories");
 
-// Zadanie 1 - 2 sposoby:
 const categoriesQuantity = listEl.children.length;
 // console.log(categoriesQuantity);
 const listItem = document.querySelectorAll(".item");

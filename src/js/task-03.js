@@ -12,3 +12,13 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const gallery = document.querySelector(".gallery");
+
+
+
+images.forEach(image => {
+  let markup = `<li class="task3-li-item"><img src="${image.url}" alt="${image.alt}" width="400" height="300"></li>`;
+  gallery.insertAdjacentHTML("beforeend", markup);
+  console.log(markup)
+})
