@@ -10,10 +10,10 @@ const bodyEl = document.body
 
 
 
-function test() {
+function colorChange() {
   bodyEl.style.backgroundColor = getRandomHexColor()
   spanEl.textContent = getRandomHexColor()
 }
 
-btnEl.addEventListener("click", test)
+btnEl.addEventListener("click", colorChange)
 
